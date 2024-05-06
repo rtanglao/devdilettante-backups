@@ -1,5 +1,9 @@
 # devdilettante-backups
 devdilettante.com mastodon backups
+
+## Search the array of content and id with datasette lite
+* [super long url that loads array_filtered_id_content.json into lite.datasette.io](https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Fdevdilettante-backups%2Fmain%2F2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38%2Farray_filtered_id_content.json#/data/array_filtered_id_content)
+
 ## 2024-05-05 generate an array
 
 ```bash
