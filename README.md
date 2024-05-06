@@ -1,6 +1,7 @@
 # devdilettante-backups
 devdilettante.com mastodon backups
 ## 2024-05-05 generate an array
+
 ```bash
 jq '[.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}]' outbox.json  > array_filtered_id_content.json
 ```
